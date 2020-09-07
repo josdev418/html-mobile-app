@@ -1,0 +1,192 @@
+body {
+  max-width: 480px;
+}
+
+.pg1-main {
+  background: url("template_assets/first/main-bg.png") no-repeat;
+  background-size: contain;
+  height: 100vh;
+  background-color: #f27302;
+  font-family: "East Sea Dokdo";
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pg1-main .main-body {
+  flex: 1;
+  overflow: scroll;
+}
+
+.pg1-main .txt-main-name {
+  padding-top: 70px;
+  font-size: 2em;
+  color: white;
+}
+
+.pg1-main .main-divider {
+  background: url(template_assets/first/divider.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 14px;
+  margin-top: -10px;
+}
+
+.pg1-main .txt-main-tagline {
+  font-family: "East Sea Dokdo";
+  font-size: 1.3em;
+  color: #c85f06;
+  margin-top: -5px;
+}
+
+.pg1-main .main-photo-canv {
+  margin-top: 40px;
+}
+
+.pg1-main .main-photo {
+  /* background: url(template_assets/first/photo.png) no-repeat; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50vw;
+  width: 50vw;
+  height: 50vw;
+  border: solid 15px #ff9700;
+  position: relative;
+}
+
+.pg1-main .photo-edit-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pg1-main .txt-full-name {
+  font-size: 4em;
+  margin-top: -20px;
+}
+
+.pg1-main .txt-post {
+  color: white;
+  font-size: 1.6em;
+  margin-top: -30px;
+}
+
+.pg1-main .contact-info {
+  color: white;
+  font-size: 1.1em;
+}
+
+.pg1-main .contact-info img {
+  width: 24px;
+  height: 24px;
+}
+
+.pg1-main .contact-info-row {
+  width: 250px;
+}
+
+.pg1-main .btn-share {
+  background: url(template_assets/first/btn-share-whatsapp.png) no-repeat;
+  background-size: contain;
+  width: 180px;
+  height: 40px;
+}
+
+.pg1-main #footer {
+  /* position: absolute;
+  bottom: 0; */
+  padding-bottom: 10px;
+  width: 100vw;
+  height: 60px;
+  background-color: #f27302;
+}
+
+button {
+  outline: none !important;
+}
+
+/* Page 2 */
+.logo-img {
+  height: 160px;
+}
+
+/* Page 3 */
+.pg3-main {
+  background: url("template_assets/first/bg.png") no-repeat;
+  background-size: center;
+  height: 100vh;
+  background-color: #f27302;
+  font-family: "East Sea Dokdo";
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pg3-main .main-body {
+  flex: 1;
+  overflow: scroll;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pg3-main #footer {
+  /* position: absolute;
+  bottom: 0; */
+  padding-bottom: 10px;
+  width: 100vw;
+  height: 60px;
+}
+
+.pg3-main .txt-about {
+  color: #f27302;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.pg3-main .txt-desc {
+  color: white;
+  font-size: 1.1em;
+}
+
+/* Page 4 */
+.pg4-main {
+  background: url("template_assets/first/bg.png") no-repeat;
+  background-size: center;
+  height: 100vh;
+  background-color: #f27302;
+  font-family: "East Sea Dokdo";
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pg4-main .main-body {
+  flex: 1;
+  overflow: scroll;
+}
+
+.pg4-main .txt-main-name {
+  padding-top: 70px;
+  font-size: 3em;
+  color: #f27302;
+}
+
+.pg4-main .menu-title {
+  font-size: 2em;
+  color: #f27302;
+}
+
+.pg4-main .menu-sub-title {
+  font-size: 1.5em;
+  margin-top: -10px;
+}
+
+.pg4-main .menu-detail {
+  font-size: 1.2em;
+  margin-top: -14px;
+}
+
+.pg4-main .menu-list {
+  color: white;
+}
